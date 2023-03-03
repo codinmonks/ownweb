@@ -3383,7 +3383,7 @@ a {
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     .margin-for-design{
-        margin-top: -134px !important;
+        margin-top: -120px !important;
     }
   }
   
