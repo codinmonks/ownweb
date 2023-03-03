@@ -37,51 +37,65 @@
 
     <style media="screen">
         .type {
-      display:inline-block;
-    
-      vertical-align: bottom;
-    }
-    
-    .type > span {
-     
-      display:grid;
-      overflow: hidden;
-      height:1.1em;
-    }
-    
-    .type span span {
-      width:0%;
-      max-width:max-content;
-      overflow: hidden;
-      height:inherit;
-      word-break:break-all;
-      animation:
-        c 0.5s infinite steps(1),
-        t 2s linear infinite alternate,
-        m 16s steps(4) infinite;
-    }
-    .type span span:before {
-      content:" ";
-      display:inline-block;
-    }
-    
-    @keyframes t{
-      90%,100% {width:100%}
-    }
-    
-    @keyframes c{
-      0%,100%{box-shadow:5px 0 0 #0000}
-      50%    {box-shadow:5px 0 0 white}
-    }
-    
-    @keyframes m{
-      100% {transform:translateY(-400%)}
-    }
-    
-    /* #audio-player {
+            display: inline-block;
+
+            vertical-align: bottom;
+        }
+
+        .type>span {
+
+            display: grid;
+            overflow: hidden;
+            height: 1.1em;
+        }
+
+        .type span span {
+            width: 0%;
+            max-width: max-content;
+            overflow: hidden;
+            height: inherit;
+            word-break: break-all;
+            animation:
+                c 0.5s infinite steps(1),
+                t 2s linear infinite alternate,
+                m 16s steps(4) infinite;
+        }
+
+        .type span span:before {
+            content: " ";
+            display: inline-block;
+        }
+
+        @keyframes t {
+
+            90%,
+            100% {
+                width: 100%
+            }
+        }
+
+        @keyframes c {
+
+            0%,
+            100% {
+                box-shadow: 5px 0 0 #0000
+            }
+
+            50% {
+                box-shadow: 5px 0 0 white
+            }
+        }
+
+        @keyframes m {
+            100% {
+                transform: translateY(-400%)
+            }
+        }
+
+        /* #audio-player {
   display: none;
 } */
-      </style>
+    </style>
 
 
 
@@ -91,7 +105,7 @@
 <body>
 
 
-    
+
 
     <section class="menu cid-s5yY03wZSv" once="menu" id="menu1-0">
 
@@ -165,29 +179,30 @@
                     <h1 class="mbr-section-title mbr-fonts-style pb-4 display-1">
                         <span class="type">
                             <span>
-                              <span><strong>IT Consulting</strong></span>
-                              <span><strong>Web Development</strong></span>
-                              <span><strong>App Development</strong></span>
-                              <span><strong>Digital Marketing</strong></span>
+                                <span><strong>IT Consulting</strong></span>
+                                <span><strong>Web Development</strong></span>
+                                <span><strong>App Development</strong></span>
+                                <span><strong>Digital Marketing</strong></span>
                             </span>
-                   
+
                     </h1>
                     <p class="mbr-text mbr-fonts-style pb-5 display-7">
                         We offers top-notch web development services & Digital Marketing Services for small businesses
                         at an affordable price. You can easily scale from desktop to mobile, so you never miss out on
                         customers or opportunities.<br></p>
                     <div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-secondary-outline display-4" href="#">Get
-                            Started</a> 
+                            Started</a>
 
-                            <!-- <audio id="myAudio" autoplay controls src="assets/welcome-audio/welcome-audio-1.mp3"></audio> -->
-                            <!-- <audio id="myAudio" controls>
+                        <!-- <audio id="myAudio" autoplay controls src="assets/welcome-audio/welcome-audio-1.mp3"></audio> -->
+                        <!-- <audio id="myAudio" controls>
                                 <source src="assets/welcome-audio/welcome-audio-2.ogg" type="audio/ogg">
                                 <source src="assets/welcome-audio/welcome-audio-1.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio> -->
-                            
-                            <audio id="myAudio" src="assets/welcome-audio/welcome-audio-1.mp3" src="assets/welcome-audio/welcome-audio-2.ogg"></audio>
-                             </div>
+
+                        <audio id="myAudio" src="assets/welcome-audio/welcome-audio-1.mp3"
+                            src="assets/welcome-audio/welcome-audio-2.ogg"></audio>
+                    </div>
                 </div>
 
                 <div class="col-lg-5 col-md-12 col-12">
@@ -748,9 +763,11 @@
         <div class="container mb-5">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
-                    <h5 class="main-sub-title mbr-fonts-style mb-3 display-4 text-uppercase text-white">Our Portfolio</h5>
+                    <h5 class="main-sub-title mbr-fonts-style mb-3 display-4 text-uppercase text-white">Our Portfolio
+                    </h5>
                 </div>
-                <h3 class="main-title align-left mbr-fonts-style pb-3 display-2"><strong>Our work is presented here, check them below.</strong></h3>
+                <h3 class="main-title align-left mbr-fonts-style pb-3 display-2"><strong>Our work is presented here,
+                        check them below.</strong></h3>
             </div>
         </div>
         </div>
@@ -792,7 +809,7 @@
                                 class="img-fluid w-100 d-block">
                             <div class="overlay-box">
                                 <div class="overlay-inner">
-                                    <a class="overlay-content" >
+                                    <a class="overlay-content">
                                         <h5 class="mb-0 font-weight-bold">Mobile App</h5>
                                         <p class="font-weight-bold">UI/UX Design</p>
                                     </a>
@@ -807,9 +824,10 @@
                         <div class="image position-relative ">
                             <img src="assets/images/portfolio/akshat-reality.png" alt="portfolio-image"
                                 class="img-fluid w-100 d-block">
+                                
                             <div class="overlay-box">
                                 <div class="overlay-inner">
-                                    <a class="overlay-content" >
+                                    <a class="overlay-content">
                                         <h5 class="mb-0 font-weight-bold">Real Estate</h5>
                                         <p class="font-weight-bold">Web & App Design</p>
                                     </a>
@@ -826,7 +844,7 @@
                                 class="img-fluid w-100 d-block">
                             <div class="overlay-box">
                                 <div class="overlay-inner">
-                                    <a class="overlay-content" >
+                                    <a class="overlay-content">
                                         <h5 class="mb-0 font-weight-bold">Admin Dashboard</h5>
                                         <p class="font-weight-bold">Web App Design</p>
                                     </a>
@@ -836,14 +854,15 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-6 mb-4 shuffle-item margin-for-design" data-groups="[&quot;design&quot;,&quot;branding&quot;]">
+                <div class="col-lg-4 col-6 mb-4 shuffle-item margin-for-design"
+                    data-groups="[&quot;design&quot;,&quot;branding&quot;]">
                     <div class="position-relative inner-box">
                         <div class="image position-relative">
                             <img src="assets/images/portfolio/Engagement-website.png" alt="portfolio-image"
                                 class="img-fluid w-100 d-block">
                             <div class="overlay-box">
                                 <div class="overlay-inner">
-                                    <a class="overlay-content" >
+                                    <a class="overlay-content">
                                         <h5 class="mb-0 font-weight-bold">Web Design</h5>
                                         <p class="font-weight-bold">UI/UX & Development</p>
                                     </a>
@@ -860,8 +879,8 @@
                                 class="img-fluid w-100 d-block">
                             <div class="overlay-box">
                                 <div class="overlay-inner">
-                                    <a class="overlay-content" >
-                                         <h5 class="mb-0 font-weight-bold">Logo Branding</h5>
+                                    <a class="overlay-content">
+                                        <h5 class="mb-0 font-weight-bold">Logo Branding</h5>
                                         <p class="font-weight-bold">Logo Design</p>
                                     </a>
                                 </div>
@@ -870,14 +889,15 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-6 mb-4 shuffle-item margin-for-design" data-groups="[&quot;design&quot;,&quot;photo&quot;]">
+                <div class="col-lg-4 col-6 mb-4 shuffle-item margin-for-design"
+                    data-groups="[&quot;design&quot;,&quot;photo&quot;]">
                     <div class="position-relative inner-box">
                         <div class="image position-relative ">
                             <img src="assets/images/portfolio/ebulkings.png" alt="portfolio-image"
                                 class="img-fluid w-100 d-block">
                             <div class="overlay-box">
                                 <div class="overlay-inner">
-                                    <a class="overlay-content" >
+                                    <a class="overlay-content">
                                         <h5 class="mb-0 font-weight-bold">E-Commerce</h5>
                                         <p class="font-weight-bold">Web & App Design</p>
                                     </a>
@@ -920,15 +940,34 @@
             <div class="row justify-content-center">
 
 
-                <div class="col-12 col-md-6 align-center col-lg-4" style="width: 100%; height: 437px; overflow-y: scroll; overflow-x: hidden;">
-                    <div> <img width="100%" src="assets/images/portfolio/kailtach-Lab.png" alt=""></div>
-                 
+                <div class="col-12 col-md-6 align-center col-lg-4 pb-3">
+                    <div style=" box-shadow: 0px 1px 5px lightgrey; border-radius: 7px !important;">
+                        <div>
+                            <h5 class="portfolio-h5">Kailtech</h5>
+                        </div>
+
+                        <div style="width: 100%; height: 437px; overflow-y: scroll; overflow-x: hidden;">
+                            <img width="100%" src="assets/images/portfolio/kailtach-Lab.png" alt=""></div>
+                    </div>
+
                 </div>
-                <div class="col-12 col-md-6 align-center col-lg-4" style="width: 100%; height: 473px; overflow-y: scroll; overflow-x: hidden;">
-                    <div><img width="100%" src="assets/images/portfolio/Star-Calibration.png" alt=""></div>
+                <div class="col-12 col-md-6 align-center col-lg-4 pb-3">
+                    <div style=" box-shadow: 0px 1px 5px lightgrey; border-radius: 7px !important;">
+                        <div>
+                            <h5 class="portfolio-h5">Kailtech</h5>
+                        </div>
+                        <div style="width: 100%; height: 473px; overflow-y: scroll; overflow-x: hidden;"> 
+                            <img width="100%" src="assets/images/portfolio/Star-Calibration.png" alt=""></div>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 align-center col-lg-4" style="width: 100%; height: 437px; overflow-y: scroll; overflow-x: hidden;">
-                   <div><img width="100%" src="assets/images/portfolio/Esavari-Rental.png" alt=""></div>
+                <div class="col-12 col-md-6 align-center col-lg-4 pb-3">
+                    <div style=" box-shadow: 0px 1px 5px lightgrey; border-radius: 7px !important;">
+                        <div>
+                            <h5 class="portfolio-h5">Kailtech</h5>
+                        </div>
+                        <div style="width: 100%; height: 437px; overflow-y: scroll; overflow-x: hidden;">
+                             <img  width="100%" src="assets/images/portfolio/Esavari-Rental.png" alt=""></div>
+                    </div>
                 </div>
 
             </div>
@@ -1591,19 +1630,23 @@
                 <div class="col-lg-12">
                     <div class="wrapper">
                         <div class="icon-wrapper">
-                            <span style="color: aliceblue !important;" class="mbr-iconfont socicon-twitter socicon"></span>
+                            <span style="color: aliceblue !important;"
+                                class="mbr-iconfont socicon-twitter socicon"></span>
                         </div>
 
                         <div class="icon-wrapper">
-                            <span  style="color: aliceblue !important;"class="mbr-iconfont socicon-facebook socicon"></span>
+                            <span style="color: aliceblue !important;"
+                                class="mbr-iconfont socicon-facebook socicon"></span>
                         </div>
 
                         <div class="icon-wrapper">
-                            <span style="color: aliceblue !important;" class="mbr-iconfont socicon-instagram socicon"></span>
+                            <span style="color: aliceblue !important;"
+                                class="mbr-iconfont socicon-instagram socicon"></span>
                         </div>
 
                         <div class="icon-wrapper">
-                            <span style="color: aliceblue !important;" class="mbr-iconfont socicon-behance socicon"></span>
+                            <span style="color: aliceblue !important;"
+                                class="mbr-iconfont socicon-behance socicon"></span>
                         </div>
 
                         <!-- <a class="iconfont-wrapper" href="#" target="_blank">
@@ -1696,9 +1739,9 @@
         });
 
     </script>
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Audio<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Audio<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
-<!-- <script>
+    <!-- <script>
 
 var audio = document.getElementById("welcome-audio");
 audio.addEventListener("ended", function() {
@@ -1707,12 +1750,12 @@ audio.addEventListener("ended", function() {
 
 </script> -->
 
-<script>
-    var audio = document.getElementById("myAudio");
-    audio.autoplay = true;
-    audio.load();
-  </script>
-  
+    <script>
+        var audio = document.getElementById("myAudio");
+        audio.autoplay = true;
+        audio.load();
+    </script>
+
 
 </body>
 
