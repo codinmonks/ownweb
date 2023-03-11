@@ -7,7 +7,7 @@ body {
 .display-1 {
     font-family: 'MuseoModerno', display;
     font-size: 4rem;
-    line-height: 1;
+    line-height: 65px !important;
 }
 
 .display-1>.mbr-iconfont {
