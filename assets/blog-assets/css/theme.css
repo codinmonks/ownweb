@@ -1,9 +1,4 @@
-/*
-Template Name:Affiliates
-Copyright:WowThemes.net,https://www.wowthemes.net
-Version:1.0.0
-License: Attribution-NonCommercial 4.0 International 
-         Free for personal use. For commercial use, please read: https://www.wowthemes.net/freebies-license/
+
 */
 body {
     font-family: "poppins", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
@@ -1222,7 +1217,7 @@ iframe {
     color:black;
     border: none;
     border-radius:3px;
-    padding:6px 8px
+    padding: 10px 30px;
     }
     
     /*google translate link | logo */
@@ -1233,6 +1228,10 @@ iframe {
       color:transparent!important;
       font-size:0;
     }
+  .goog-te-combo{
+        font-size: 13px !important;
+    } 
+    
     
     #goog-gt-tt, .goog-te-balloon-frame{display: none !important;}
    .goog-text-highlight { background: none !important; box-shadow: none !important;}
